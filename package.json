@@ -1,0 +1,34 @@
+{
+  "name": "vue-webpack",
+  "version": "1.0.0",
+  "description": "A vue project based on webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server":"webpack-dev-server --open --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarvenChi/vue-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarvenChi/vue-webpack/issues"
+  },
+  "homepage": "https://github.com/MarvenChi/vue-webpack#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.9",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
+    "vue": "^2.5.13",
+    "vue-loader": "^14.1.1",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
